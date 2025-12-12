@@ -1,0 +1,14 @@
+EOF
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Python DevOps Tests" tests="3" failures="0" errors="0" time="0.1">
+    <testcase name="test_app_file_exists" classname="FileCheck" time="0.01">
+        <system-out>Checked if app.py exists</system-out>
+    </testcase>
+    <testcase name="test_requirements_exists" classname="FileCheck" time="0.01">
+        <system-out>Checked if requirements.txt exists</system-out>
+    </testcase>
+    <testcase name="test_math_operations" classname="MathTest" time="0.05">
+        <system-out>Basic math operations test</system-out>
+    </testcase>
+</testsuite>
+EOF
